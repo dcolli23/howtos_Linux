@@ -6,21 +6,31 @@ has_children: true
 
 # Desktop Customizations
 
-This a list of some of the customizations I make with my Linux distributions.
+This a list of some of the customizations I make with my Ubuntu installations.
 
-## Ubuntu
+These tweaks require GNOME Tweaks which allows for tweaking of the GNOME desktop experience. You can change a lot through this! This can be a bit strange since you have to configure the settings through your browser but you get used to it quickly.
 
-### Workspace Configuration
+## Installation of GNOME Tweaks
 
-#### Workspace Matrix
+I use GNOME Tweaks through Chrome. This can be installed with:
 
-Downloaded through the "Ubuntu Software" application. Allows for 2-dimensional workspace layout.
+```
+$ sudo apt install gnome-shell-extensions chrome-gnome-shell
+```
 
-#### Multi Monitors Add-On
+You then install the GNOME Shell Integration extension from the chrome web store at [this link](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep/related).
+
+## Handy GNOME Tweaks
+
+### Workspace Matrix
+
+Allows for 2-dimensional workspace layout.
+
+### Multi Monitors Add-On
 
 This allows for the top bar and workspace preview on mutliple external monitors.
 
-#### GNOME Tweaks
+### Shell Tiling
 
-Allows for tweaking of the GNOME desktop experience. Can change a lot through this!
+See [Shell Tiling](shell_tiling/shell_tiling) page.
 
