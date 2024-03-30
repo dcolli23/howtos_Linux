@@ -1,7 +1,6 @@
 ---
 title: bashrc
-nav_order: 3
-parent: Desktop Customizations
+nav_order: 2
 ---
 
 # bashrc Customizations
@@ -17,3 +16,6 @@ These are some of the changes I like to make to my ~/.bashrc.
       ```
       hist bash
       ```
+- `alias conda-activate-dir='conda activate ${PWD##*/}'`
+  - Activate the Anaconda environment with the same name as the current directory.
+  - Yes, this is pretty lazy!

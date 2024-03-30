@@ -1,6 +1,6 @@
 ---
 title: Scripts To Modify Shell
-nav_order: 4
+nav_order: 5
 ---
 
 # Scripts to Modify Shell
@@ -19,7 +19,7 @@ This page details how to create a script that modifies your shell environment. T
     #!/bin/bash
     # Create a temporary file
     TMPFILE=$(mktemp)
-    
+
     # Add stuff to the temporary file
     # bashrc for normal shell initialization
     echo "source ~/.bashrc" > $TMPFILE

@@ -1,6 +1,6 @@
 ---
 title: Desktop Customizations
-nav_order: 3
+nav_order: 4
 has_children: true
 ---
 
@@ -9,6 +9,16 @@ has_children: true
 This a list of some of the customizations I make with my Ubuntu installations.
 
 These tweaks require GNOME Tweaks which allows for tweaking of the GNOME desktop experience. You can change a lot through this! This can be a bit strange since you have to configure the settings through your browser but you get used to it quickly.
+
+## Using Fingerprint For Sudo
+
+If you have a laptop with a fingerprint scanner, you can configure your work station to ask for your fingerprint for sudo authentication first. To do this, run:
+
+```
+sudo pam-auth-update
+```
+
+And select the "Fingerprint authentication" option with <kbd>Spacebar</kbd>. Then use <kbd>Tab</kbd> and <kbd>Spacebar</kbd> to exit. This should work immediately but if it doesn't try to reboot.
 
 ## Installation of GNOME Tweaks
 

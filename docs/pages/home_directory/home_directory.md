@@ -1,6 +1,6 @@
 ---
 title: Home Directory Customizations
-nav_order: 2
+nav_order: 3
 ---
 
 # Home Directory Customizations
@@ -15,7 +15,7 @@ These are the directories that I make sure to create outside of the ones include
 ~/Apps
 ~/code
   + personal_projects
-  + scratch 
+  + scratch
 ~/DataLocker
 ~/journal
 ~/myTrello
